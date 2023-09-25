@@ -42,4 +42,7 @@ The attendance data is stored in a CSV file with a filename in the format attend
 
 - You may need to fine-tune the face recognition parameters (e.g., tolerance) for optimal results, depending on your dataset.
 
+# Acknowledgement
+This project is built upon the foundation laid by the [Silent Face Anti-Spoofing](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing) repository by MiniVision AI. I extend our gratitude to their team for their valuable work.
+
 
