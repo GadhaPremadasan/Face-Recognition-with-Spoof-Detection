@@ -18,7 +18,7 @@ Before running the code, make sure you have the following dependencies installed
 - Update the model_dir in the test function call with the path to your anti-spoofing model.
 
 - Replace 'name of your pickle file' with the actual name of your pickle file containing face encodings. Make sure this file is in the same directory as attendance.py or provide the full path.
--
+
 3. Run the main.py script.
 
 4. The webcam feed will open, and the system will perform face recognition. Detected faces will be labeled with the corresponding person's name, and attendance will be marked in a CSV file.
@@ -29,10 +29,10 @@ Before running the code, make sure you have the following dependencies installed
 The attendance data is stored in a CSV file with a filename in the format attendance_YYYY-MM-DD.csv, where YYYY-MM-DD represents the current date when the attendance was recorded.
 
 # Notes
--Make sure your webcam is connected and working properly.
+- Make sure your webcam is connected and working properly.
 
--Ensure that the necessary Python packages are installed.
+- Ensure that the necessary Python packages are installed.
 
--You may need to fine-tune the face recognition parameters (e.g., tolerance) for optimal results, depending on your dataset.
+- You may need to fine-tune the face recognition parameters (e.g., tolerance) for optimal results, depending on your dataset.
 
 
